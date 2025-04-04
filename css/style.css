@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #28a745;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.currency-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.currency img {
+    width: 30px;
+}
+
+#swap {
+    background: #ddd;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #218838;
+}
+
+p {
+    font-weight: bold;
+    margin: 10px 0;
+}
